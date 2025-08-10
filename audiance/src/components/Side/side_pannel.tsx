@@ -2,9 +2,13 @@ import React from 'react'
 
 export default function Side_pannel() {
   return (
-    <div className='z-50 w-32 px-10 flex justify-between border-b-1 border-b-gray-500 items-center max-w-[100%] text-white h-full'> 
-        <ul>
-            <button className='bg-amber-600'>Dashboard </button>
+    <div className='fixed w-60 h-full px-10 flex flex-col border-b-1 border-r-1 border-gray-500 text-white'> 
+        <ul className='max-w-full flex flex-col py-10 justify-around gap-10 '>
+            <button className=''>Dashboard </button>
+            <button className=''>Dashboard </button>
+            <button className=''>Dashboard </button>
+            <button className=''>Dashboard </button>
+            <button className=''>Dashboard </button>
         </ul>
     </div>
   )
