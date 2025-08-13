@@ -29,7 +29,7 @@ import React from 'react'
                 <div className='h-40 w-72 bg-[#f3f4f6] rounded-xl flex flex-row '>
           <div className='flex flex-col p-7 gap-2'>
             <h1 className='text-xl'>Total Mentions</h1>
-            <h1 className='text-2xl font-bold'>2,000</h1>
+            <h1 className='text-2xl font-bold'>2,000</h1> 
             <h1>+12% from last week</h1>
           </div>
           <div className='justify-center items-center mt-14 mx-4 max-h-max '>
